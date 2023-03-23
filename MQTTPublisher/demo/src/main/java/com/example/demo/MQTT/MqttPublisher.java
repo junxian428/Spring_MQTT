@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Component
 public class MqttPublisher {
 
-    private String brokerUrl="tcp://localhost:1883";
+    private String brokerUrl="tcp://127.0.0.1:1883";
     private String clientId = "1";
     private IMqttClient mqttClient;
 
